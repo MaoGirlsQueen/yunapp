@@ -1,0 +1,19 @@
+<view class="footer">
+   <text class="words-num">{{wordsNum}}</text>
+   <button class="send-btn" bindtap="send">发布</button>
+</view>
+<view class="container">
+  <textarea class="content" placeholder='分享新鲜事1:46:45' maxlength='140' auto-focus bindfocus="onFocus" bindblur='onBlur' bindinput='onInput'></textarea>
+  <view class="image-list">
+     <block wx:for="{{images}}" wx:key="*this">
+        <view class="image-wrap">
+            <image class="image" src="{{item}}" mode="aspectFill" bindtap="onPreviewImage" data-imgsrc="{{item}}"></image>
+            <i class="iconfont icon-shanchu" bind:tap="onDelImage" data-index="{{index}}"></i>
+        </view>
+     </block>
+     
+     <view class="image-wrap selectphoto" bindtap='onChooseImage' hidden='{{!selectPhoto}}'>
+     <i class="iconfont icon-21"></i>
+     </view>
+  </view>
+</view>

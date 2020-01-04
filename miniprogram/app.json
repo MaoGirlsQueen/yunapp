@@ -1,0 +1,40 @@
+{
+  "pages": [
+   "pages/record/record",
+   "pages/add/add",
+   "pages/my/my"
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6243",
+    "navigationBarTitleText": "成长录",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#ff6243",
+    "list": [
+      {
+        "pagePath": "pages/record/record",
+        "text": "瞬间",
+        "iconPath": "images/nav_01_g.png",
+        "selectedIconPath": "images/nav_01.png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "添加",
+        "iconPath": "images/nav_02_g.png",
+        "selectedIconPath": "images/nav_02.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/nav_03_g.png",
+        "selectedIconPath": "images/nav_03.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

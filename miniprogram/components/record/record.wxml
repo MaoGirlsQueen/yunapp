@@ -1,0 +1,20 @@
+<view class="wrap">
+  <view class="avatarWrap">
+    <view class="avatarImage">
+      <image src="{{record.avatarUrl}}"></image>
+      <view>
+        <text class="avatarText">{{record.title}}</text>
+        <view class="time">{{record.createTime}}</view>
+      </view>
+    </view>
+    <view class="miao">第{{record.count}}次瞬间</view>
+  </view>
+  <view class="desc">
+    {{record.content}}
+  </view>
+  <view class="imgList">
+    <block wx:for="{{record.img}}" wx:key="id">
+      <image src="{{item}}" mode="aspectFill"></image>
+    </block>
+  </view>
+</view>

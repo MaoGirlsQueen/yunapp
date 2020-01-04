@@ -1,0 +1,3 @@
+   <block wx:for="{{recordList}}" wx:key="id">
+     <y-record record="{{item}}"></y-record>
+   </block>

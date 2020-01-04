@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "y-record":"/components/record/record"
+  }
+}

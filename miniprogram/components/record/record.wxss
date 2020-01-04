@@ -1,0 +1,60 @@
+.wrap{
+    padding:30rpx;
+    border-bottom:1px solid rgb(247, 247, 247);
+}
+.avatarImage{
+  display: flex;
+  align-items: center;
+}
+.avatarImage image{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 100%;
+  margin-right:20rpx;
+}
+.avatarText{
+  font-size:35rpx;
+  font-weight: 700;
+  color:#ff6243;
+  font-family: Arial, sans-serif;
+}
+
+.time{
+  font-size:24rpx;
+  color:rgba(255, 98, 67,.5);
+  margin-top:10rpx;
+}
+
+.desc{
+  margin:20rpx 0;
+  font-size:30rpx;
+  line-height:45rpx;
+  color:rgba(78, 78, 78,.9);
+  font-family: '微软雅黑';
+}
+.imgList{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.imgList image{
+   width:210rpx;
+  height:210rpx;
+  margin-left:10rpx;
+  margin-bottom:10rpx;
+  border-radius: 6rpx;
+}
+.avatarItem{
+  flex:1;
+}
+.avatarWrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.miao{
+  font-size:24rpx;
+  color:#ccc;
+  flex:0 0 200rpx;
+  text-align: right;
+}
